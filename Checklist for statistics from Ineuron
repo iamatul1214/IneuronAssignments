@@ -1,0 +1,66 @@
+Checkilist for Stats:
+
+ 
+
+Statistics
+
+Types of Statistics: Inferential & Descriptive
+Population and Sample
+Different Sampling methods: Random Sampling, Stratifies Sampling, Systematic Sampling, Clustering Sampling
+Usage of these sampling: Train test split
+Measure of Central Tendency(CT): Mean, Median, Mode
+Usage of CT: Outlier Detection
+Random Variables
+Types of Random Variables: Categorical(Qualitative) RV, Continuous(Quantitative) RV
+Types of Categorical RV: Ordinal, Nominal
+Types of Continuous RV: Discreet Continuous, Numerical Continuous
+Independent & Dependent Samples
+Measure of Dispersion: Variance, Standard Deviaiton
+Types of Variance: Population & Sample Variation(Bessel Correction PENDING)
+Types of Standard Deviaiton: Sample and Population 
+Gaussian OR Normal Distribution
+Emperical Rule of Gaussian Distribution
+Histograms
+Z-Score and its applications
+Standardization
+Probability
+Mutual & Non-mutual Exclusive Event
+Multiplicative rule in independent & dependent events
+Permutation & Combination
+Percentile
+----
+5- Number Summary(Min, Q1, Median, Q3, Max)
+Covariance and its disadvantages
+Pearson's correlation coeffecient
+Spearman's correlation coeffecient
+Central Limit Theorem
+Hypothesis Testing
+p-value(significance level)
+Point Estimate
+Confidence Interval
+Z-Test
+t-Test(degree of freedom)
+One sample Z-Test
+One-tailed and two- tailed test
+Difference between Z-score & Z-Test
+One sample t-Test
+Z-test for proportion(One sample)
+Probability Density Function(pdf)
+Cumulative Density Function(cdf)
+Probability Mass Function(pmf)
+Bernoulli's Distribution
+Binomial Distribution
+Chebychev's Inequality
+80-20 rule
+Power Law
+Pareto's Distribution
+--------
+Box-Cox Transform
+Q-Q plot(Quantile - Quantile plot)
+Bessel's Correction
+Chi-Squared Test
+Chi-Squared test for 2 or more categorical variable
+ANOVA test
+One-way ANOVA test
+Repeated measure of ANOVA
+Poisson's Distribution(Not done-was given as HOMEWORK)

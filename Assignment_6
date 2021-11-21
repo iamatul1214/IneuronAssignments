@@ -1,0 +1,37 @@
+1. What are escape characters, and how do you use them?
+Answer- The \is called escape character. It is used to change line or insert a tab space. For eg- \n and \t respectively.
+2. What do the escape characters n and t stand for?
+Answer- n changes the line -> enter and t inserts a space->tab.
+3. What is the way to include backslash characters in a string?
+Answer- Backslash should be followed with the keyword. for eg- print("Hi this is an example\nwhere we see backslash changing line")
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+Answer- Because the string is enclosed in double quotes, hence ' is not considered as escaped character here.
+5. How do you write a string of newlines if you don't want to use the n character?
+Answer-import os
+example = 'Welcome to'+ os.linesep + 'Ineuron'
+print(example)
+6. What are the values of the given expressions?
+'Hello, world!'[1]     -'e'
+'Hello, world!'[0:5]   -'Hello'
+'Hello, world!'[:5]    -'Hello'
+'Hello, world!'[3:]    -'lo, world!'
+
+7. What are the values of the following expressions?
+'Hello'.upper()            -'HELLO'
+'Hello'.upper().isupper()  - True
+'Hello'.upper().lower()    - 'hello'
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+Answer-['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+'-'.join('There can only one.'.split())
+Answer- 'There-can-only-one.'
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Answer-string="Hello how are you"
+print(string.ljust(30))   ##for left alignment
+print(string.rjust(30))   ##for right alignment
+print(string.center(30))  ##for center alignment
+10. What is the best way to remove whitespace characters from the start or end?
+Answer- We can use strip() method to remove the whitespaces. for eg-  
+string=" Hello how are you     "
+string.strip()
+

@@ -1,0 +1,72 @@
+1.What are the two values of the Boolean data type? How do you write them?
+Answer- The two values of bolean data type are True and False. Syntax= a=True, b=False
+2. What are the three different types of Boolean operators?
+Answer- And , Or , Not
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+Answer- And = True And True= True
+			  True And False=False
+			  False And True=False
+			  False And False=False
+		Or =  True OR False=True
+			  True OR True=True
+			  False OR True=True
+			  False OR False=False
+		Not = Not True= False
+			  Not False=True
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5) - False
+not (5 > 4)          - False
+(5 > 4) or (3 == 5)  - True
+not ((5 > 4) or (3 == 5))- False
+(True and True) and (True == False)- False
+(not False) or (not True)     - True
+5. What are the six comparison operators?
+Answer- < , > , <= , >= , == , and != 
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+Answer- for equal to we use '==' operator and for assignment we use '='. for eg- x=10 is an assignment and if x==10 is comparison.
+  For comparing we use equal to and for assignment we use =.
+7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('eggs')   Block 1 ends
+if spam > 5:
+print('bacon')  Block 2 ends
+else:
+print('ham')
+print('spam')
+print('spam')   Block 3 ends
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+if spam==1:
+    print("Hello")
+elif spam==2:
+    print("Howdy")
+else:
+    print("Greetings!")
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+Answer- Ctrl + c
+10. How can you tell the difference between break and continue?
+Answer- The break statement is used to terminate a loop in which it is called, and the statements  after body of loop is executed.
+		The continue statement is used to skip the rest of the statements/code after the continue in current iteration of the loop.
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+Answer- range(10) means iterating from 0 till 10 times , which means 0 to 9.
+		range(0,10) means iteration starting from 0 and ending on 10.
+		range(0,10,1) means iteration starting from 0 and ending at 10 with increment of 1.
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+Answer- 
+--------------------------------
+	For loop
+--------------------------------	
+for i in range(1,11):
+    print(i)
+---------------------------------	
+	While loop
+---------------------------------	
+	i=1
+while(i<=10):
+    print(i)
+    i+=1
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+Answer- spam.bacon
+

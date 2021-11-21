@@ -1,0 +1,41 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+*   Expression
+'hello'   Value
+-87.8  value
+-   Expression
+/   Expression
++	Expression
+6   Value
+
+2. What is the difference between string and variable?
+Answer- A string is a datatype which stores literal/text kind of data but a variable cam be anything which can store some data. For eg- x=6 and y=’abc’, here x,y are the variable and ‘abc’ is the string data.
+
+3. Describe three different data types.
+Answer- String, Integer, float.
+
+4. What is an expression made up of? What do all expressions do?
+Answer-  Expressions are made up of identifiers, literals and Operators. Expressions are used to evaluate some value.
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Answer- An expression is used to evaluate some values whereas statement represents an action or command. For eg- spam=10, here = is an expression which evaluates that spam is holding  10  value and spam=10 is itself an assignment statement.
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+
+bacon + 1
+Answer= After running these two statements bacon will contain 23.
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Answer- 'spam' + 'spamspam'= 'spamspamspam'
+	'spam' * 3 = spamspamspam
+
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Answer- eggs is a valid variable because it is made of alphabets but 100 is a numerical value which can’t be a variable name because- if we have int eggs=10, int 100=10, the system will get confused to perform operations like int x=eggs*100 in between 1000 and 100.
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Answer- int(), float() and str(). 
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+Answer- Because integer cannot be concatenated with string. The correct statement is - 'I have eaten \"99" burritos.'
+
+
+
